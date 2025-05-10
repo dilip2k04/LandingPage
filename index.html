@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus - Creative Digital Agency</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="cursor"></div>
@@ -40,7 +42,7 @@
 
     <section id="home" class="section home-section">
         <div class="container">
-            <div class="home-content">
+            <div class="home-content" data-aos="fade-up">
                 <h1 class="home-title">Crafting Digital Experiences That Inspire</h1>
                 <p class="home-subtitle">We blend creativity with technology to build stunning digital solutions that drive results.</p>
                 <div class="home-buttons">
@@ -60,10 +62,10 @@
 
     <section id="about" class="section about-section">
         <div class="container">
-            <div class="about-image">
+            <div class="about-image" data-aos="fade-up">
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Our team">
             </div>
-            <div class="about-content">
+            <div class="about-content" data-aos="fade-up">
                 <h2 class="section-title">Who We Are</h2>
                 <p class="section-subtitle">A passionate team of designers, developers, and strategists</p>
                 <p class="about-text">Founded in 2015, Nexus has grown from a small studio to a full-service digital agency serving clients worldwide. We believe in the power of design and technology to transform businesses and create meaningful connections with audiences.</p>
@@ -92,7 +94,7 @@
                 <p class="section-subtitle">We offer comprehensive digital solutions tailored to your needs</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
@@ -100,7 +102,7 @@
                     <p>Beautiful, intuitive interfaces that enhance user experience and drive engagement.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-code"></i>
                     </div>
@@ -108,7 +110,7 @@
                     <p>Robust, scalable websites and web applications built with modern technologies.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
@@ -116,7 +118,7 @@
                     <p>Native and cross-platform mobile applications that deliver exceptional performance.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
@@ -124,7 +126,7 @@
                     <p>Data-driven strategies to increase your online presence and generate leads.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-search"></i>
                     </div>
@@ -132,7 +134,7 @@
                     <p>Improve your search rankings and drive organic traffic to your website.</p>
                     <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="service-card">
+                <div class="service-card"  data-aos="zoom-out-up">
                     <div class="service-icon">
                         <i class="fas fa-bullhorn"></i>
                     </div>
@@ -307,5 +309,9 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
